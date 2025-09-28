@@ -1,10 +1,14 @@
-import Menu from "../components/Menu";
+import Menu from "../components/layouts/Menu";
+import TopBar from "../components/layouts/TopBar";
 
 function Trabajadores() {
   return (
     <div className="flex items-center">
       <Menu />
-      <div className="bg-gray-700 text-4xl">Pagina de TRABAJADORES</div>
+      <div className="h-screen flex-grow">
+        <TopBar />
+        <div className="text-4xl">TRABAJADORES</div>
+      </div>
     </div>
   );
 }

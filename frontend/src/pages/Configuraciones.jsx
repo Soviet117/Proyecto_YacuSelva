@@ -1,10 +1,14 @@
 import Menu from "../components/Menu";
+import TopBar from "../components/TopBar";
 
 function Configuraciones() {
   return (
     <div className="flex items-center">
       <Menu />
-      <div className="bg-gray-700 text-4xl">Pagina de CONFIGURACIONES</div>
+      <div className="h-screen flex-grow">
+        <TopBar />
+        <div className="text-4xl">CONGIFURACION</div>
+      </div>
     </div>
   );
 }
