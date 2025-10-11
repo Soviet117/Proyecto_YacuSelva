@@ -1,5 +1,7 @@
 import Menu from "../components/layouts/Menu";
 import TopBar from "../components/layouts/TopBar";
+import RegisES from "../components/sections/RegisES";
+import SectionTabla from "../components/sections/SectionTabla";
 
 function Entregas() {
   return (
@@ -7,7 +9,13 @@ function Entregas() {
       <Menu />
       <div className="h-screen flex-grow">
         <TopBar />
-        <div className="text-4xl">ENTREGAS</div>
+        <div className="p-6">
+          <p className="text-3xl font-semibold mb-3">
+            GESTIÓN DE ENTREGAS Y SALIDAS
+          </p>
+          <RegisES />
+          <SectionTabla />
+        </div>
       </div>
     </div>
   );
