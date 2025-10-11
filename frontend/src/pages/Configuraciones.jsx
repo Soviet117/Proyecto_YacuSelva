@@ -1,5 +1,5 @@
-import Menu from "../components/Menu";
-import TopBar from "../components/TopBar";
+import Menu from "../components/layouts/Menu";
+import TopBar from "../components/layouts/TopBar";
 
 function Configuraciones() {
   return (
