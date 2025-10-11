@@ -5,6 +5,7 @@ import Entregas from "./pages/Entregas";
 import Caja from "./pages/Caja";
 import Reportes from "./pages/Reportes";
 import Trabajadores from "./pages/Trabajadores";
+import Configuraciones from "./pages/Configuraciones";
 
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
         <Route path="/caja" element={<Caja />} />
         <Route path="/reportes" element={<Reportes />} />
         <Route path="/trabajadores" element={<Trabajadores />} />
-        <Route path="/conf" element={<Trabajadores />} />
+        <Route path="/conf" element={<Configuraciones />} />
       </Routes>
     </BrowserRouter>
   );
